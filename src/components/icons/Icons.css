@@ -9,7 +9,7 @@
                 var(--color-two),
                 var(--color-one)
               ) 0 0 / var(--bg-size) 90%;
-  animation: move-bg 15s infinite linear;
+  animation: move-bg 8s infinite linear;
   border-radius: 1.2rem;
   }
   @media (max-width: 780px) {
