@@ -7,6 +7,7 @@ export default function Home() {
     //HERO-TEXT
     <div>
       <motion.div
+        whileHover={{ scale: 1.1, transition: { duration: 2 } }}
         animate={{ opacity: 1, y: "40vh" }}
         transition={{
           ease: "easeOut",
@@ -14,7 +15,7 @@ export default function Home() {
           type: "spring",
           stiffness: 50,
         }}
-        className="hero-text sm:text-3xl md:text-5xl lg:text-7xl"
+        className="hero-text "
         initial={{ opacity: 0 }}
       >
         Rajdip Sinha

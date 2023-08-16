@@ -9,16 +9,13 @@
                 var(--color-two),
                 var(--color-one)
               ) 0 0 / var(--bg-size) 90%;
-  animation: move-bg 8s infinite linear;
+  animation: move-bg 15s infinite linear;
   border-radius: 1.2rem;
-  margin-top: 1rem;
   }
   @keyframes move-bg {
     to {
       background-position: var(--bg-size) 0;
     }
   }
-  .icon-container{
-  
-  }
+
  

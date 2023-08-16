@@ -14,7 +14,7 @@ export default function Icons() {
         top: "60%", // Position the ul element below the motion.div
         left: "50%", // Center horizontally
         transform: "translateX(-50%)", // Adjust centering
-        marginTop: "20px", // Add some space between motion.div and ul
+        marginTop: "80px", // Add some space between motion.div and ul
       }}
     >
       <motion.li
