@@ -15,7 +15,7 @@ export default function Home() {
           type: "spring",
           stiffness: 50,
         }}
-        className="hero-text "
+        className="hero-text md:text-5xl lg:text-7xl"
         initial={{ opacity: 0 }}
       >
         Rajdip Sinha
