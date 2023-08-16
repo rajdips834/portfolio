@@ -11,7 +11,7 @@ export default function Icons() {
       className="flex flex-row gap-8 "
       style={{
         position: "absolute",
-        top: "60vh", // Position the ul element below the motion.div
+        top: "60%", // Position the ul element below the motion.div
         left: "50%", // Center horizontally
         transform: "translateX(-50%)", // Adjust centering
         marginTop: "80px", // Add some space between motion.div and ul
@@ -25,11 +25,10 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
-          delay: 0.5,
         }}
         initial={{ opacity: 0, transitionDelay: 0.5 }}
       >
-        <a href="https://github.com">
+        <a href="https://github.com/rajdips834">
           <FaGithub className="h-12 w-9 icons"></FaGithub>
         </a>
       </motion.li>
@@ -42,11 +41,10 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
-          delay: 0.8,
         }}
         initial={{ opacity: 0, transitionDelay: 1 }}
       >
-        <a href="https://Linkedin.com">
+        <a href="www.linkedin.com/in/rajdip-sinha-23789a220">
           <FaLinkedin
             onclick={githubClickHandler}
             className="h-12 w-9 icons"
@@ -62,11 +60,10 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
-          delay: 1.1,
         }}
         initial={{ opacity: 0, transitionDelay: 1.5 }}
       >
-        <a href="https://twitch.tv">
+        <a href="https://www.twitch.tv/gigani6ga">
           <FaTwitch className="h-12 mx-auto w-9 icons"></FaTwitch>
         </a>
       </motion.li>
@@ -78,11 +75,10 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
-          delay: 1.5,
         }}
         initial={{ opacity: 0, transitionDelay: 2 }}
       >
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/rajdips834">
           <FaTwitter className="h-12 w-9 icons"></FaTwitter>
         </a>
       </motion.li>
