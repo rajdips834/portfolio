@@ -21,7 +21,7 @@
     position: relative;
     top: 30%;
     animation: move-bg 20s infinite linear;
-    font-size: clamp(7rem, 14vmin, 20rem); /* Adjust font size for smaller screens */
+    font-size: clamp(4rem, 6vmin, 20rem); /* Adjust font size for smaller screens */
   }
 }
 @keyframes move-bg {
