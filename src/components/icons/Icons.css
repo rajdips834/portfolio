@@ -1,0 +1,24 @@
+.icons{
+  --bg-size: 400%;
+  --color-one: hsl(272, 100%, 47%);
+  --color-two: hsl(37, 100%, 53%);
+  font-size: clamp(3rem, 25vmin, 8rem);
+  background: linear-gradient(
+                90deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / var(--bg-size) 90%;
+  animation: move-bg 8s infinite linear;
+  border-radius: 1.2rem;
+  margin-top: 1rem;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+  .icon-container{
+  
+  }
+ 

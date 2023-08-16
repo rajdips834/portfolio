@@ -1,0 +1,34 @@
+
+.hero-text{
+    text-align: center;
+    --bg-size: 400%;
+    --color-one: hsl(272, 100%, 47%);
+    --color-two: hsl(37, 100%, 53%);
+    font-size: clamp(.1rem, 25vmin, 10rem);
+    background: linear-gradient(
+                  90deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 90%;
+    color: transparent;
+    background-clip: text;
+    animation: move-bg 8s infinite linear;
+    
+}
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+  
+.sub-text{
+    font-size: 2rem;
+    line-height: 1; 
+    font-weight: 200; 
+    color: transparent; 
+    background-clip: text; 
+    background-image: linear-gradient(to right, #BE185D, #4F46E5); 
+    text-align: center;
+     
+}
