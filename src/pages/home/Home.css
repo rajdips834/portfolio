@@ -16,12 +16,12 @@
     animation: move-bg 8s infinite linear;
     
 }
-@media (max-width: 720px) {
+@media (max-width: 640px) {
   .hero-text {
     position: relative;
-    top: 30%;
+    top: 0%;
     animation: move-bg 20s infinite linear;
-    font-size: clamp(4rem, 6vmin, 20rem); /* Adjust font size for smaller screens */
+    font-size: clamp(7rem, 14vmin, 20rem); /* Adjust font size for smaller screens */
   }
 }
 @keyframes move-bg {

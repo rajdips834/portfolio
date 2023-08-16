@@ -11,7 +11,7 @@ export default function Icons() {
       className="flex flex-row gap-8 "
       style={{
         position: "absolute",
-        top: "60%", // Position the ul element below the motion.div
+        top: "60vh", // Position the ul element below the motion.div
         left: "50%", // Center horizontally
         transform: "translateX(-50%)", // Adjust centering
         marginTop: "80px", // Add some space between motion.div and ul
@@ -25,6 +25,7 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
+          delay: 0.5,
         }}
         initial={{ opacity: 0, transitionDelay: 0.5 }}
       >
@@ -41,6 +42,7 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
+          delay: 0.8,
         }}
         initial={{ opacity: 0, transitionDelay: 1 }}
       >
@@ -60,6 +62,7 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
+          delay: 1.1,
         }}
         initial={{ opacity: 0, transitionDelay: 1.5 }}
       >
@@ -75,6 +78,7 @@ export default function Icons() {
           type: "spring",
           stiffness: 50,
           damping: 10,
+          delay: 1.5,
         }}
         initial={{ opacity: 0, transitionDelay: 2 }}
       >
