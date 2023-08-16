@@ -16,7 +16,7 @@
 
     .icons {
       animation: move-bg 20s infinite linear;
-      margin-top: 4rem;
+   
   
       --bg-size: 1200%; /* Adjust the background size for smaller screens */
     }
