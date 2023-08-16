@@ -44,7 +44,7 @@ export default function Icons() {
         }}
         initial={{ opacity: 0, transitionDelay: 1 }}
       >
-        <a href="www.linkedin.com/in/rajdip-sinha-23789a220">
+        <a href="https://www.linkedin.com/in/rajdip-sinha-23789a220">
           <FaLinkedin
             onclick={githubClickHandler}
             className="h-12 w-9 icons"
