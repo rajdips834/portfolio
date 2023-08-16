@@ -1,7 +1,6 @@
 
 .hero-text{
     text-align: center;
-    justify-content: center;
     --bg-size: 400%;
     --color-one: hsl(272, 100%, 47%);
     --color-two: hsl(37, 100%, 53%);
@@ -19,6 +18,8 @@
 }
 @media (max-width: 780px) {
   .hero-text {
+    animation: move-bg 20s infinite linear;
+    bottom: 10vh;
     --bg-size: 1200%; /* Adjust the background size for smaller screens */
     font-size: clamp(7rem, 14vmin, 20rem); /* Adjust font size for smaller screens */
   }
