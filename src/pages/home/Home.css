@@ -1,10 +1,26 @@
-
+body{
+  background-color: black;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(../../../public/fonts/RalewayDots-Regular.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../../../public/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'Candy';
+  src: url(../../../public/fonts/CandyCanePersonalUseRegular-WyaPv.ttf);
+}
 .hero-text{
+  font-family:Raleway ;
+  
     text-align: center;
     --bg-size: 400%;
     --color-one: hsl(272, 100%, 47%);
     --color-two: hsl(37, 100%, 53%);
-    font-size: clamp(.1rem, 25vmin, 10rem);
+    font-size: clamp(10rem, 25rem, 10rem);
     background: linear-gradient(
                   90deg,
                   var(--color-one),
@@ -23,12 +39,12 @@
 
     top: 30%;
     animation: move-bg 20s infinite linear;
-    font-size: clamp(4rem, 8vmin, 20rem); /* Adjust font size for smaller screens */
+    font-size: clamp(6rem, 8vmin, 20rem); /* Adjust font size for smaller screens */
   }
 }
 @media only screen and (max-width:1280px ) and (min-width:535px) {
   .hero-text{
-    font-size:7rem;
+    font-size:clamp(5rem,7rem,14rem);
   }
   
 }

@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import "./Home.css";
 import React from "react";
 import Icons from "../../components/icons/Icons";
+import About from "../about/About";
 export default function Home() {
   return (
     //HERO-TEXT
     <div>
       <motion.div
         whileHover={{ scale: 1.1, transition: { duration: 2 } }}
-        animate={{ opacity: 1, y: "40vh" }}
+        animate={{ opacity: 1, y: "30vh" }}
         transition={{
           ease: "easeOut",
           duration: 2,
@@ -30,8 +31,10 @@ export default function Home() {
           duration: 0.5, // Animation duration
         }}
       >
-        <Icons />
+        <Icons></Icons>
       </motion.div>
+
+      {/* Icons ADDED */}
     </div>
   );
 }
