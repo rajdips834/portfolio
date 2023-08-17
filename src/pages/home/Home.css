@@ -20,7 +20,7 @@ body{
     --bg-size: 400%;
     --color-one: hsl(272, 100%, 47%);
     --color-two: hsl(37, 100%, 53%);
-    font-size: clamp(10rem, 25rem, 10rem);
+    font-size: clamp(10rem, 20rem, 30rem);
     background: linear-gradient(
                   90deg,
                   var(--color-one),
@@ -42,9 +42,15 @@ body{
     font-size: clamp(6rem, 8vmin, 20rem); /* Adjust font size for smaller screens */
   }
 }
+@media only screen and (max-width:1766px ) and (min-width:1280px) {
+  .hero-text{
+    font-size:clamp(5rem,13rem,20rem);
+  }
+  
+}
 @media only screen and (max-width:1280px ) and (min-width:535px) {
   .hero-text{
-    font-size:clamp(5rem,7rem,14rem);
+    font-size:clamp(5rem,8rem,14rem);
   }
   
 }
