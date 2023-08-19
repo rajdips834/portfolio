@@ -1,3 +1,17 @@
 .background{
     background-color: wheat;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url(../../../public/fonts/Poppins-Regular.ttf);
+  }
+.about{
+    font-family: Poppins;
+    position: relative; 
+    top: 90vh;
+    padding-left: 2rem;
+    
+
+
+
+}
