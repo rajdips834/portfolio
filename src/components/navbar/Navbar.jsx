@@ -1,6 +1,8 @@
+import "./Navbar.css";
+
 export default function Navbar() {
   return (
-    <nav className="fixed w-full">
+    <nav className="fixed w-full ">
       <ul className="flex justify-between space-x-4 text-xl backdrop-filter backdrop-blur-lg text-slate-50">
         {" "}
         <li>
