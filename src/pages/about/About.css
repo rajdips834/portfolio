@@ -12,10 +12,9 @@
 .about{
     font-family: Poppins;
     position: relative; 
-    top: 90vh;
-    font-size: 3.5rem;
     padding-left: 2rem;
-    
+    position:relative;
+    top:90vh;
 }
 .about-subtext{
     position: relative;
