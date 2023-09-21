@@ -3,9 +3,6 @@ import React from "react";
 import "./Icons.css";
 import { motion } from "framer-motion";
 export default function Icons() {
-  const githubClickHandler = () => {
-    console.log("github");
-  };
   return (
     <motion.ul
       className="flex flex-row gap-8 "
@@ -45,10 +42,7 @@ export default function Icons() {
         initial={{ opacity: 0, transitionDelay: 1 }}
       >
         <a href="https://www.linkedin.com/in/rajdip-sinha-23789a220">
-          <FaLinkedin
-            onclick={githubClickHandler}
-            className="h-12 w-9 icons"
-          ></FaLinkedin>
+          <FaLinkedin className="h-12 w-9 icons"></FaLinkedin>
         </a>
       </motion.li>
 

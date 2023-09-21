@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import "./Home.css";
 import React from "react";
 import Icons from "../../components/icons/Icons";
-import About from "../about/About";
 export default function Home() {
   return (
     //HERO-TEXT
