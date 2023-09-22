@@ -6,3 +6,7 @@
     font-family: 'Raleway',sans-serif;
     src: url(../public/fonts/RalewayDots-Regular.ttf);
 }
+body::webkit-scrollbar{
+    display: none;
+    
+}
