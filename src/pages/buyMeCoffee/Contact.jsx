@@ -1,25 +1,25 @@
+import { useState } from "react";
 export default function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+  const submitHandler = (e) => {};
   return (
     <>
-      <form className="relative pl-8 pb-8 top-[210vh] flex flex-col">
-        <label for="name">Name</label>
+      <form className="text-white relative pl-8 pb-8 top-[210vh] flex flex-col">
         <input
           type="text"
-          className="w-[40vw] p-1 bg-slate-900"
+          className="w-[40vw] p-1 m-3 bg-slate-900"
           name="name"
           placeholder="Name"
         />
-        <label for="email">Email</label>
         <input
           type="text"
-          className="w-[40vw] p-1 bg-slate-900"
+          className="w-[40vw] p-1 m-3 bg-slate-900"
           name="email"
           placeholder="Email"
         />
-        <label for="message">Message</label>
         <textarea
           type="text"
-          className="w-[40vw] p-1 bg-slate-900"
+          className="w-[40vw] p-1 m-3 bg-slate-900"
           name="message"
           placeholder="Message"
         />

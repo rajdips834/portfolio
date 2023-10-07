@@ -25,7 +25,7 @@ export default function BuildWhat(props) {
         initial="hidden"
         animate={mainControls}
       >
-        Projects?
+        Build what?
       </motion.h2>
     </>
   );
