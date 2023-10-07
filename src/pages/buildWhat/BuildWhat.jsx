@@ -19,8 +19,8 @@ export default function BuildWhat(props) {
         ref={ref}
         className="relative flex justify-center pb-4 top-[150vh] text-4xl text-slate-100  sm:text-4xl md:text-6xl lg:text-8xl"
         variants={{
-          hidden: { opacity: 0, transition: { delay: 1 } },
-          visible: { opacity: 1, transition: { delay: 1 } },
+          hidden: { opacity: 0, transition: { delay: 0.5 } },
+          visible: { opacity: 1, transition: { delay: 0.5 } },
         }}
         initial="hidden"
         animate={mainControls}
