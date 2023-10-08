@@ -7,7 +7,6 @@ export default function Home() {
     //HERO-TEXT
     <div>
       <motion.div
-        whileHover={{ scale: 1.1, transition: { duration: 2 } }}
         animate={{ opacity: 1, y: "30vh" }}
         transition={{
           ease: "easeOut",
