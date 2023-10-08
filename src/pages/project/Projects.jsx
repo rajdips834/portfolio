@@ -36,7 +36,7 @@ export default function Projects(props) {
   }, [controls, inView]);
 
   return (
-    <div className="relative flex flex-row flex-wrap justify-center gap-4">
+    <div className="flex flex-wrap justify-center gap-4">
       {projectLinks.map((project, i) => (
         <motion.div
           key={i}
@@ -48,7 +48,7 @@ export default function Projects(props) {
           initial="hidden"
           animate={controls}
           transition={{ delay: 1, duration: 1.5, type: "tween", damping: 12 }}
-          className="top-[160vh] relative flex-shrink-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"
+          className="top-[160vh]  relative flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
         >
           <ProjectCard
             name={project.name}
