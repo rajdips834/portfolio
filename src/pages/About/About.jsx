@@ -17,13 +17,19 @@ export default function About() {
   }, [isInView]);
 
   return (
-    <div style={{ position: "relative", top: "100vh" }}>
+    <div
+      className="relative"
+      style={{
+        position: "relative",
+        top: "100vh",
+      }}
+    >
       <motion.div
         ref={ref}
         className="relative flex w-full pl-4 text-xs md:pl-11 md:text-4xs lg:text-8xs md:w-1/2 text-slate-100"
         variants={{
           hidden: { opacity: 0, x: 400 },
-          visible: { opacity: 0.5, x: 190, transition: { duration: 0.5 } },
+          visible: { opacity: 0.5, transition: { duration: 0.5 } },
         }}
         initial="hidden"
         animate={mainControls}
@@ -42,7 +48,7 @@ export default function About() {
         ref={ref}
         variants={{
           hidden: { opacity: 0, x: 400 },
-          visible: { opacity: 1, x: 190, transition: { duration: 0.5 } },
+          visible: { opacity: 1, transition: { duration: 0.5 } },
         }}
         initial="hidden"
         animate={mainControls}
@@ -53,7 +59,7 @@ export default function About() {
           stiffness: 100,
           damping: 20,
         }}
-        className="relative flex w-full pl-4 text-4xl md:w-1/2 md:pl-10 md:text-6xl lg:text-8xl text-slate-100"
+        className="relative flex pl-4 text-4xl md:w-1/2 md:pl-10 md:text-6xl lg:text-8xl text-slate-100"
       >
         ABOUT
       </motion.h1>
@@ -62,7 +68,7 @@ export default function About() {
         <div className="flex items-center w-full mt-10 h-1/2">
           <motion.p
             initial={{ opacity: 0, x: 400 }}
-            whileInView={{ opacity: 1, x: 165 }}
+            whileInView={{ opacity: 1 }}
             transition={{
               duration: 0.5,
               delay: 1,
@@ -92,7 +98,7 @@ export default function About() {
               experiences. Your visit to my portfolio is deeply appreciated!
             </span>
           </motion.p>
-          <motion.img
+          {/* <motion.img
             ref={ref}
             initial={{ x: 400, opacity: 0 }}
             whileInView={{ x: 500, opacity: 1 }}
@@ -104,7 +110,7 @@ export default function About() {
             }}
             className="hidden w-1/2 h-1/2 bg-slate-200 md:block"
             src={dp}
-          ></motion.img>
+          ></motion.img> */}
         </div>
       </div>
     </div>
